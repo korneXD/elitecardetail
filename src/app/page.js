@@ -73,13 +73,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center">
           <div className="absolute inset-0">
-            <Image
-              src="https://1vmw7h21w4.ufs.sh/f/XEkUUJjWZa5LQwaZisjFd67Nn8DFxig1VRWLIaXyrhTzbJBO"
-              alt="Luxury car being detailed"
-              fill
-              className="object-cover"
-              priority
-            />
+
             <div className="absolute inset-0 bg-black/50" />
           </div>
           <div className="relative z-10 text-center space-y-6 max-w-3xl mx-auto px-4">

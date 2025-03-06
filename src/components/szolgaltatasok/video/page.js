@@ -6,7 +6,8 @@ export default function AboutVideo() {
     const services = [{ icon: Sparkles, name: "Autó polírozás", descr: "Ragyogó autó, karcmentes felület, tartós védelem." }, { icon: Shield, name: "Karosszériavédö fóliázás", descr: "Védelem, fény, tartósság. Óvd meg autód fényezését!" }, { icon: SprayCan, name: "Kerámia bevonat telepítés", descr: "Hosszantartó védelem és ragyogás autód számára!" }, { icon: SprayCan, name: "Külsö-belsö kozmetika", descr: "Tiszta, ápolt és újszerű autó kívül-belül!" }, { icon: Brush, name: "Kárpittisztítás", descr: "Friss, foltmentes és higiénikus belsö tér!" }, { icon: Droplet, name: "Börtisztítás/ápolás", descr: "Tisztít, véd, megőrzi a bör minőségét!" }]
     return (
         <div className="flex w-full justify-center items-center flex-col-reverse md:flex-row px-4 py-6 bg-background gap-10">
-            <video src="https://1vmw7h21w4.ufs.sh/f/XEkUUJjWZa5LsGus6ezjs2wHxCDO5M0lJvoQtZPT6I87qezS" width="300" height="240" controls className="rounded-3xl shadow-sm shadow-primary" />
+            <video src="https://1vmw7h21w4.ufs.sh/f/XEkUUJjWZa5LsGus6ezjs2wHxCDO5M0lJvoQtZPT6I87qezS" width="300" height="240" controls className="rounded-3xl shadow-sm shadow-primary" preload={'auto'} autoPlay
+                type={'video/mp4'} />
             <div className="w-full lg:w-1/2">
                 <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-primary flex items-center gap-3">
                     Szolgáltatásaim

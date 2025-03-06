@@ -2,6 +2,7 @@ import { Orbitron } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/header/header";
 import { description, title } from "@/lib/constants";
+import { Analytics } from "@vercel/analytics/react"
 
 const orbitron = Orbitron({
   subsets: ["latin"],
@@ -92,6 +93,7 @@ export default function RootLayout({ children }) {
           <Header />
         </div>
         {children}
+        <Analytics />
       </body>
     </html>
   );

@@ -1,7 +1,7 @@
 import ReferenciakOldal from "@/components/pages/referenciakoldal";
 
 export const metadata = {
-    title: "Elite Car Detail - Autókozmetika Kecskemét",
+    title: "Referenciák",
     description: "Tekints meg néhány fotót eddigi munkáimról - Elite Car Detail Kecskemét.",
 };
 
